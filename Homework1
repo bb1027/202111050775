@@ -1,0 +1,33 @@
+WWW:英文:World Wide Web
+       中文:万维网
+HTTP:英文:HyperText Transfer Protocol
+      中文:超文本传输协议
+HTML:英文:Hyper Text Markup Language
+      中文:超文本标签语言
+URL:英文:Uniform Resource Location
+     中文:统一资源定位符
+FTP:英文:FileTransferProtocol
+中文:文件传输协议
+ASCII:英文:American Standard Code for Information Interchange
+      中文:美国信息交换标准代码
+
+绝对路径:超链接中最重要的一个概念就是链接地址，链接地址有绝对路径和相对路径两种方式。绝对路径是指完整的路径，如访问一个域名为abcd.com的网站中名称为abc.html的网页，其绝对地址就是htp:lwww.abcd.com/abe.html.而对于本地电脑上的文件路径，如d在My Documents/My Music/123.mp3，该路径就是绝对路径.
+
+相对路径:是指一个文件到另一个文件所经过的路径。
+以图1-13中的几个HTML文件为例，来说明彼此之间的相对路径。
+关于图1-13中各个HTML文件之间的相对路径关系，如下所述：
+ 从1html到4.html，期间需要经过B2文件夹，所以其相对路径就是“B2/4.html”；
+ 从I.html到2.html，不需要经过任何文件夹，所以它的相对路径是“2.html”；
+ 从2.html到3.html,经过B1和C文件夹，所以它的相对路径是“B1/C/3.html”。
+上述三种路径是正向的相对路径，而逆向的相对路径如下所示:
+ 从4.html到1.html的相对路径是“../1.html”;
+ 从3.html到4.html的相对路径是“../.B2/4.html”。
+
+
+URL:协议名称:// 主机名:端口号/路径及文件名
+
+例如:http://www.yeah.net/index.htm
+
+协议名: 超文本传输协议 主机名:www.yeah.net
+
+路径及文件名:index.htm
